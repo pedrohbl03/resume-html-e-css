@@ -1,0 +1,774 @@
+.fixed { position: center; top: 0; left: 0; }
+
+
+
+body{
+    background-color:#ffffff;
+}
+
+#rectangle{
+    width: 700px;
+    height: 900px;
+    background: #ffffff;
+    box-shadow: 70px 70px 70px rgba(0,0,0,0.5);
+    position: fixed;
+    top: 20px;
+    left: 35%;
+    border: 0.5px solid black;
+ }
+.sobreposicao {
+    width:200px;
+    height:900px;
+    background-color: #717171;
+    position: fixed;
+    top: 20px;
+    left: 35%;
+    border: 0.5px solid black;
+
+}
+
+/* barra de sobreposição*/
+
+.nome {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 40px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+.sobrenome {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Times New Roman';
+}
+
+.profissao{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    color: yellow;
+    font-family: 'Times New Roman';
+    font-size: 8px;
+
+}
+
+
+
+.esfera1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:white;
+    margin: 1px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+
+
+}
+.esfera2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:white;
+    margin: 1px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+.esfera3{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:white;
+    margin: 1px;
+    position: relative;
+    top: 35px;
+    left: 10px;
+}
+
+.telefoneimg {
+    position: relative;
+    top: -39px;
+    left: 13px;
+
+    
+}
+
+.telefone{
+    color: white;
+    position: relative;
+    top: -70px;
+    left: 35px;
+    font-family: 'Times New Roman';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.contatos{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 15px;
+    color: white;
+    font-size: x-small;
+    font-family: 'Times New Roman';
+    
+}
+
+.emailimg {
+    position: relative;
+    top:-71px;
+    left:14px;
+
+}
+
+.emailtext {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 12px;
+    position: relative;
+    top: -103px;
+    left: 35px;
+
+}
+
+.localimg{
+    position: relative;
+    top: -102px;
+    left: 14px;
+
+}
+
+.localtext{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 12px;
+    position: relative;
+    top: -133px;
+    left: 35px;
+}
+
+.divisao{
+    width: 70%;
+    height: 0.5px;
+    border: 0px;
+    border-top: 1px yellow solid;
+    background-color: yellow;
+    position: relative;
+    top: -60px;
+    left: 30px;
+
+}
+
+.divisaopreta{
+    width: 10%;
+    height: 1.5px;
+    border: 0px;
+    border-top: 1px black solid;
+    background-color: black;
+    position: relative;
+    top: -61.5px;
+    left: 90px;
+}
+
+
+.perfilf{
+
+    border-radius: 100%;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    border: 3px solid yellow;
+    transition: all 1.0s
+}
+
+.perfilf:hover {
+    border-radius: 0%;
+    transition: all 0.5s;
+}
+
+
+.skills {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: -140px;
+    color: white;
+    font-size: x-small;
+    font-family: 'Times New Roman';
+
+}
+
+.divisao2{
+    width: 70%;
+    height: 0.5px;
+    border: 0px;
+    border-top: 1px yellow solid;
+    background-color: yellow;
+    position: relative;
+    top: -95px;
+    left: 30px;
+
+}
+
+.divisaopreta2{
+    width: 10%;
+    height: 1.5px;
+    border: 0px;
+    border-top: 1px black solid;
+    background-color: black;
+    position: relative;
+    top: -96.5px;
+    left: 90px;
+}
+
+.progress1{
+    width: 70px;
+    height: 10px;
+    border-radius: 30px;
+    margin: 5%;
+    border: 1px solid black;
+    background: linear-gradient(to right, yellow 0%, yellow 30%, #ffffff 30%  );
+    position: relative;
+    top: -125px;
+    left: 105px;
+}
+
+
+.progress1text {
+    position: relative;
+    top: -153px;
+    left: 10px;
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.progress2{
+    width: 70px;
+    height: 10px;
+    border-radius: 30px;
+    margin: 5%;
+    border: 1px solid black;
+    background: linear-gradient(to right, yellow 0%, yellow 50%, #ffffff 50%  );
+    position: relative;
+    top: -145px;
+    left: 105px;
+}
+
+.progress2text {
+    position: relative;
+    top: -177px;
+    left: 20px;
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.progress3{
+    width: 70px;
+    height: 10px;
+    border-radius: 30px;
+    margin: 5%;
+    border: 1px solid black;
+    background: linear-gradient(to right, yellow 0%, yellow 80%, #ffffff 80%  );
+    position: relative;
+    top: -165px;
+    left: 105px;
+}
+
+.progress3text {
+    position: relative;
+    top: -195px;
+    left: 20px;
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.progress4{
+    width: 70px;
+    height: 10px;
+    border-radius: 30px;
+    margin: 5%;
+    border: 1px solid black;
+    background: linear-gradient(to right, yellow 0%, yellow 90%, #ffffff 90%  );
+    position: relative;
+    top: -175px;
+    left: 105px;
+}
+
+.progress4text {
+    position: relative;
+    top: -205px;
+    left: 15px;
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.progress5{
+    width: 70px;
+    height: 10px;
+    border-radius: 30px;
+    margin: 5%;
+    border: 1px solid black;
+    background: linear-gradient(to right, yellow 0%, yellow 90%, #ffffff 90%  );
+    position: relative;
+    top: -195px;
+    left: 105px;
+}
+.progress5text {
+    position: relative;
+    top: -225px;
+    left: 15px;
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.progress6{
+    width: 70px;
+    height: 10px;
+    border-radius: 30px;
+    margin: 5%;
+    border: 1px solid black;
+    background: linear-gradient(to right, yellow 0%, yellow 75%, #ffffff 75%  );
+    position: relative;
+    top: -215px;
+    left: 105px;
+}
+.progress6text {
+    position: relative;
+    top: -250px;
+    left: 15px;
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.redeSocial{
+
+    text-align: center;
+    font-size: x-small;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    top: -240px;
+
+}
+
+.divisao3{
+    width: 70%;
+    height: 0.5px;
+    border: 0px;
+    border-top: 0px yellow solid;
+    background-color: yellow;
+    position: relative;
+    top: -250px;
+    left: 30px;
+
+}
+
+.divisaopreta3{
+    width: 10%;
+    height: 1.5px;
+    border: 0px;
+    border-top: 0px black solid;
+    background-color: black;
+    position: relative;
+    top: -250.5px;
+    left: 90px;
+}
+
+
+
+.facebook {
+    color: white;
+    position: relative;
+    top: -225px;
+    left: 75px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.facebookimg {
+    position: relative;
+    top: -243px;
+    left: 45px;
+}
+
+.linkedin {
+    color: white;
+    position: relative;
+    top: -230px;
+    left: 75px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.linkedinimg {
+    position: relative;
+    top: -248px;
+    left: 45px;
+}
+
+.instagram {
+    color: white;
+    position: relative;
+    top: -232px;
+    left: 75px;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.instagramimg {
+    position: relative;
+    top: -250px;
+    left: 45px;
+}
+
+
+
+
+
+
+
+/* barra de conteudo */
+
+
+.SobreTitle{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    left: 35%;
+    top: 20px;
+    font-size: 12px;
+}
+
+.barra1{
+    width: 60%;
+    height: 0.5px;
+    border-top: 0px solid black;
+    background: black;
+    position: relative;
+    left: 220px;
+    top: 20px;
+}
+
+.detalhe1{
+    width: 10%;
+    height: 2px;
+    background: #FBFF00;
+    position: relative;
+    left: 220px;
+    top: 18.5px;
+}
+
+.TamanhoText{
+    width: 200px;
+    border: 1px;
+    border-color: #000000;
+}
+
+.SobreCont{
+    width: 450px;
+    font-family: 'Times New Roman';
+    color: #717171;
+    position: relative;
+    left: 225px;
+    top: 40px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+.ExperienciaTitle{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    left: 35%;
+    top: 50px;
+    font-size: 12px;
+}
+
+.barra2{
+    width: 60%;
+    height: 0.5px;
+    background: black;
+    position: relative;
+    left: 220px;
+    top: 50px;
+}
+
+.detalhe2{
+    width: 10%;
+    height: 2px;
+    background: #FBFF00;
+    position: relative;
+    left: 220px;
+    top: 48.5px;
+}
+
+.ExperienciaCont{
+    width: 450px;
+    font-family: 'Times New Roman';
+    color: #717171;
+    position: relative;
+    left: 225px;
+    top: 70px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+
+.EducacaoTitle{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    left: 35%;
+    top: 90px;
+    font-size: 12px;
+}
+
+.barra3{
+    width: 60%;
+    height: 0.5px;
+    background: black;
+    position: relative;
+    left: 220px;
+    top: 90px;
+}
+
+.detalhe3{
+    width: 10%;
+    height: 2px;
+    background: #FBFF00;
+    position: relative;
+    left: 220px;
+    top: 88.5px;
+}
+
+.EducacaoCont{
+    width: 450px;
+    font-family: 'Times New Roman';
+    color: #000000;
+    font-weight: bold;
+    position: relative;
+    left: 225px;
+    top: 110px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.periodo {
+    width: 450px;
+    font-family: 'Times New Roman';
+    color: #717171;
+    position: relative;
+    left: 225px;
+    top: 125px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+.curso {
+    font-family: 'Times New Roman';
+    color: #000000;
+    position: relative;
+    left: 398px;
+    top: 62px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+.sobreCurso {
+    width: 280px;
+    font-family: 'Times New Roman';
+    color: #717171;
+    position: relative;
+    left: 400px;
+    top: 50px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+
+.RelevantesTitle{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    color: #000000;
+    position: relative;
+    left: 35%;
+    top: 60px;
+    font-size: 12px;
+}
+
+.barra4{
+    width: 60%;
+    height: 0.5px;
+    background: black;
+    position: relative;
+    left: 220px;
+    top: 60px;
+}
+
+.detalhe4{
+    width: 10%;
+    height: 2px;
+    background: #FBFF00;
+    position: relative;
+    left: 220px;
+    top: 58.5px;
+}
+
+
+.projeto1 {
+
+    width: 450px;
+    font-family: 'Times New Roman';
+    color: #000000;
+    font-weight: bold;
+    position: relative;
+    left: 225px;
+    top: 90px;
+    font-size: 12px;
+    text-align: justify;
+
+}
+
+.periodoProjeto1 {
+    width: 450px;
+    font-family: 'Times New Roman';
+    color: #717171;
+    position: relative;
+    left: 225px;
+    top: 105px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.sobreProjeto1 {
+
+    width: 280px;
+    font-family: 'Times New Roman';
+    color: #717171;
+    position: relative;
+    left: 400px;
+    top: 60px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+.projeto2 {
+
+    width: 450px;
+    font-family: 'Times New Roman';
+    color: #000000;
+    font-weight: bold;
+    position: relative;
+    left: 225px;
+    top: 75px;
+    font-size: 12px;
+    text-align: justify;
+
+}
+
+.periodoProjeto2 {
+    width: 450px;
+    font-family: 'Times New Roman';
+    color: #717171;
+    position: relative;
+    left: 225px;
+    top: 90px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.sobreProjeto2 {
+
+    width: 280px;
+    font-family: 'Times New Roman';
+    color: #717171;
+    position: relative;
+    left: 400px;
+    top: 45px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+
+.projeto3 {
+
+    width: 150px;
+    font-family: 'Times New Roman';
+    color: #000000;
+    font-weight: bold;
+    position: relative;
+    left: 225px;
+    top: 75px;
+    font-size: 12px;
+    text-align: justify;
+
+}
+
+.periodoProjeto3 {
+    width: 450px;
+    font-family: 'Times New Roman';
+    color: #717171;
+    position: relative;
+    left: 225px;
+    top: 90px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.sobreProjeto3 {
+
+    width: 280px;
+    font-family: 'Times New Roman';
+    color: #717171;
+    position: relative;
+    left: 400px;
+    top: 30px;
+    font-size: 14px;
+    text-align: justify;
+
+}
