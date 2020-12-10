@@ -363,6 +363,12 @@ p{
     top: -415px;
 }
 
+#downloadResume a {
+    position: relative;
+    top: -395px;
+    left: 30px;
+}
+
 
 
 
