@@ -1,0 +1,28 @@
+
+@media screen and (max-width: 1200px) {
+  #CVWrapper {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #CVWrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #CVWrapper {
+    display: block;
+  }
+
+  #CVWrapper #SideInfoWrapper {
+    display: block;
+    width: 100%;
+  }
+  #CVWrapper #MainContentWrapper {
+    display: block;
+    width: 100%;
+  }
+}
+

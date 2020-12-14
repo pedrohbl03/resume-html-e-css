@@ -1,0 +1,250 @@
+/* Utilities */
+:root {
+  --floralwhite-color: #FFFDF7;
+  --grey-color: #717171;
+  --gamboge-color: #E59500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  font-family: "Roboto";
+}
+
+p {
+  font-size: 13px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+.section-info {
+  margin-bottom: 50px;
+}
+
+.section-info-title {
+  border-bottom: 1px solid var(--gamboge-color);
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.section-info-title.dark {
+  border-color: var(--gamboge-color);
+}
+
+/* End of utilities */
+
+#CVWrapper {
+  position: absolute;
+  width: 50vw;
+  margin: 60px auto;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+
+}
+
+#CVTableContainer {
+  display: table;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: var(--floralwhite-color);
+}
+
+
+/*#region SideInfo */
+#CVWrapper #SideInfoWrapper {
+  display: table-cell;
+  width: 35%;
+  background-color: var(--grey-color);
+  padding: 20px;
+  color: var(--floralwhite-color);
+}
+
+#SideInfoWrapper #Profile {
+  text-align: center;
+}
+
+#SideInfoWrapper #Profile .profile-image{
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 3px solid var(--gamboge-color);
+}
+
+
+/* Contact Area */
+#SideInfoWrapper #Contact p {
+  position: relative;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+
+#SideInfoWrapper #Contact .phone-img {
+  position: relative;
+  top: 5px;
+  left: -2%;
+}
+#SideInfoWrapper #Contact .email-img {
+  position: relative;
+  top: 5px;
+  left: -2%;
+}
+#SideInfoWrapper #Contact .location-img {
+  position: relative;
+  top: 5px;
+  left: -2%;
+}
+
+
+
+/*Skills Area*/
+#Skills #PersonalitySkills, #Skills #TecnicalSkills {
+  margin-bottom: 10%;
+}
+
+
+#skills #TecnicalSkills p{
+  display: inline-block;
+  width: auto;
+  max-width: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-bottom: auto;
+  top: 13px;
+
+}
+
+
+#skills #PersonalitySkills p{
+  display: inline-block;
+  width: auto;
+  max-width: 30%;
+  position: relative;
+  margin-left: auto;
+  margin-bottom: auto;
+  top: 13px;
+
+}
+
+
+
+
+#skills .progress {
+  width: auto;
+  max-width: 50%;
+  height: 10px;
+  border-radius: 30px;
+  border: 1px solid black;
+  position: relative;
+  margin-left: auto;
+  margin-bottom: 10%;
+}
+
+
+
+  /* skills tecnical progress (HTML E CSS, MARKETING, HARDWARE */
+
+#skills #TecnicalSkills #progressBarTec-1 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 30%, #ffffff 30%);
+}
+
+#skills #TecnicalSkills #progressBarTec-2 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 50%, #ffffff 50%);
+}
+
+#skills #TecnicalSkills #progressBarTec-3 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 80%, #ffffff 80%);
+}
+
+
+ /* Personality Skills Preogress (Proativdade, Comunicativo, etc. ) */
+
+#skills #PersonalitySkills #progressBarPers-1 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 70%, #ffffff 70%);
+}
+
+#skills #PersonalitySkills #progressBarPers-2 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 90%, #ffffff 90%);
+}
+
+#skills #PersonalitySkills #progressBarPers-3 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 95%, #ffffff 95%);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Social Network Area */
+#socialNetwork a:link,
+:visited {
+  color: white;
+  text-decoration: none;
+  margin-left: 5%;
+}
+
+#socialNetwork .linkedinimg {
+  position: relative;
+  top: 5px;
+}
+
+#socialNetwork .facebookimg {
+  position: relative;
+  top: 5px;
+
+}
+
+#socialNetwork .instagramimg {
+  position: relative;
+  top: 5px;
+
+}
+
+
+
+
+/*#endregion End of SideInfo */
+
+
+/*#region MainContentWrapper */
+
+#CVWrapper #MainContentWrapper {
+  display: table-cell;
+  width: 65%;
+  left: 35%;
+  padding: 20px;
+  vertical-align: top;
+}
+
+
+/*#endregion End of SideInfo */
+
+
+
+
