@@ -1,0 +1,593 @@
+body,
+h1,
+h2,
+h3,
+p {
+  font-family: "Times New Roman";
+  color: white;
+}
+
+#CVWrapper {
+  position: absolute;
+  width: 600px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+#SideInfoWrapper {
+  width: 30%;
+  background-color: #717171;
+  position: fixed;
+  top: 20px;
+  left: 35%;
+  border: 0.5px solid black;
+}
+
+/* side infos - profile*/
+
+#profile {
+  position: relative;
+  width: 200px;
+  top: 0px;
+  left: 0%;
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman";
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#profile .profileS {
+  border-radius: 100%;
+  position: relative;
+  top: 30px;
+  left: 0px;
+  border: 3px solid yellow;
+  transition: all 1s;
+}
+
+#profile .profileS:hover {
+  border-radius: 0%;
+  transition: all 0.5s;
+}
+
+#profile .profile-names {
+  position: relative;
+  top: 20px;
+  font-weight: bold;
+}
+
+#profile .profile-names h2 {
+  position: relative;
+  top: -20px;
+}
+
+#profile .profession h3 {
+  position: relative;
+  top: -10px;
+  color: yellow;
+  font-size: 10px;
+}
+
+/* side infos - contact*/
+
+#contact {
+  width: 200px;
+  position: relative;
+  left: 0%;
+  top: -10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#contact h1 {
+  position: relative;
+  top: -5px;
+  text-align: center;
+  font-size: large;
+}
+
+/* division bar*/
+
+#sideinfos .division {
+  width: 70%;
+  height: 0.5px;
+  border-top: 0px yellow solid;
+  background-color: yellow;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sideinfos .division-detail {
+  width: 15%;
+  height: 1.5px;
+  border-top: black solid 1px;
+  background-color: black;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* side infos - all divisions */
+#separador-1 {
+  top: 280px;
+  right: 0px;
+}
+#detalhe-1 {
+  top: 279px;
+  right: 0px;
+}
+
+#separador-2 {
+  top: 410px;
+  right: 0px;
+}
+#detalhe-2 {
+  top: 409.4px;
+  right: 0px;
+}
+
+#separador-3 {
+  top: 680px;
+  right: 0px;
+}
+#detalhe-3 {
+  top: 679.4px;
+  right: 0px;
+}
+
+#separador-4 {
+  top: 810px;
+  right: 0px;
+}
+#detalhe-4 {
+  top: 809.4px;
+  right: 0px;
+}
+
+/* side infos - contact background icons*/
+
+#contact .esfera {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 1px;
+  position: relative;
+}
+
+#contact #esfera-1 {
+  top: 0px;
+  left: 10px;
+}
+
+#contact #esfera-2 {
+  top: 10px;
+  left: 10px;
+}
+
+#contact #esfera-3 {
+  top: 20px;
+  left: 10px;
+}
+
+#contact .phone-img {
+  position: relative;
+  top: -60.5px;
+  left: 13px;
+}
+#contact .email-img {
+  position: relative;
+  top: -30.5px;
+  left: -4.5px;
+}
+#contact .location-img {
+  position: relative;
+  top: 1.5px;
+  left: -21.5px;
+}
+
+#contact p {
+  position: relative;
+  left: 38px;
+  top: -93px;
+  font-size: 12.5px;
+  margin-top: 15px;
+}
+
+/* side info skills */
+
+#skills {
+  width: 200px;
+  height: 350px;
+  position: relative;
+  left: 0%;
+  top: -90px;
+  font-weight: bold;
+}
+
+#skills h1 {
+  position: relative;
+  top: -5px;
+  text-align: center;
+  font-size: large;
+}
+
+#skills .progress {
+  width: 70px;
+  height: 10px;
+  border-radius: 30px;
+  margin: 5%;
+  border: 1px solid black;
+  position: relative;
+  left: 100px;
+  top: 0px;
+  margin-top: 20px;
+}
+/* side info skills tecnicals */
+#skills #TecnicalSkills #progressBarTec-1 {
+  background: linear-gradient(to right, yellow 0%, yellow 30%, #ffffff 30%);
+}
+
+#skills #TecnicalSkills #progressBarTec-2 {
+  background: linear-gradient(to right, yellow 0%, yellow 50%, #ffffff 50%);
+}
+
+#skills #TecnicalSkills #progressBarTec-3 {
+  background: linear-gradient(to right, yellow 0%, yellow 80%, #ffffff 80%);
+}
+
+#skills #TecnicalSkills .progress-tec {
+  position: relative;
+  font-size: 15px;
+  left: 10px;
+  top: -93px;
+  margin-bottom: 5%;
+}
+/* side info skills personality */
+
+#skills #PersonalitySkills {
+  position: relative;
+  top: -80px;
+}
+
+
+ /* skills tecnical progress (HTML E CSS, MARKETING, HARDWARE 
+
+#skills #TecnicalSkills #progressBarTec-1 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 30%, #ffffff 30%);
+}
+
+#skills #TecnicalSkills #progressBarTec-2 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 50%, #ffffff 50%);
+}
+
+#skills #TecnicalSkills #progressBarTec-3 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 80%, #ffffff 80%);
+}
+
+
+ /* Personality Skills Preogress (Proativdade, Comunicativo, etc. ) 
+
+#skills #PersonalitySkills #progressBarPers-1 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 90%, #ffffff 90%);
+}
+
+#skills #PersonalitySkills #progressBarPers-2 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 50%, #ffffff 50%);
+}
+
+#skills #PersonalitySkills #progressBarPers-3 {
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 80%, #ffffff 80%);
+}
+
+
+#skills .progress {
+  width: auto;
+  max-width: 50%;
+  height: 10px;
+  border-radius: 30px;
+  border: 1px solid black;
+  position: relative;
+  margin-left: 50%;
+  margin-bottom: 10%;
+}
+
+*/
+
+
+/*<div id="progressBarTec-1" class="progress"></div>
+              <div id="progressBarTec-2" class="progress"></div>
+              <div id="progressBarTec-3" class="progress"></div> 
+
+              <div class="progress-tec-text">
+                <p>HTML e CSS</p>
+                <p>Marketing</p>
+                <p>Hardware</p>
+              </div>
+            </div>
+
+            <div id="PersonalitySkills">
+              <!- Progress Bar Personality Skills -->
+
+              <div id="progressBarPers-1" class="progress"></div>
+              <div id="progressBarPers-2" class="progress"></div>
+              <div id="progressBarPers-3" class="progress"></div> 
+
+              <div class="progress-pers-text">
+                <p>Proatividade</p>
+                <p>Comunicativo</p>
+                <p>Aprendizado<br />continuo</p>
+              </div>
+            </div>
+          </div>*/
+
+
+
+#skills #PersonalitySkills .progress-pers-text p {
+  position: relative;
+  font-size: 15px;
+  left: 10px;
+  top: -94px;
+}
+
+/* side infos - social networks */
+
+#socialNetwork {
+  width: 200px;
+  height: 350px;
+  position: relative;
+  left: 0%;
+  top: -120px;
+  font-weight: bold;
+}
+
+#socialNetwork h1 {
+  position: relative;
+  font-size: large;
+  text-align: center;
+  top: -65px;
+}
+
+#socialNetwork p {
+  position: relative;
+  top: -55px;
+  left: 55px;
+  margin-top: -10px;
+  font-size: 15px;
+}
+
+#socialNetwork .linkedinimg {
+  position: relative;
+  top: 5px;
+  left: -5px;
+}
+
+#socialNetwork .facebookimg {
+  position: relative;
+  top: 5px;
+  left: -5px;
+}
+
+#socialNetwork .instagramimg {
+  position: relative;
+  top: 5px;
+  left: -5px;
+}
+
+#socialNetwork a:link,
+:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* download resume */
+
+#downloadResume h1 {
+  position: relative;
+  font-size: large;
+  text-align: center;
+  top: -415px;
+}
+
+#downloadResume a {
+  position: relative;
+  top: -395px;
+  left: 30px;
+}
+
+/* contanier  */
+
+#contanier {
+  width: 700px;
+  height: 900px;
+  background: #ffffff;
+  box-shadow: 70px 70px 70px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 20px;
+  left: 35%;
+  border: 0.5px solid black;
+}
+
+#contanier .bar-division {
+  width: 60%;
+  height: 0.5px;
+  background: black;
+}
+
+#contanier .bar-division-detail {
+  width: 10%;
+  height: 2px;
+  background: #fbff00;
+}
+
+#contanier #aboutMe h1 {
+  position: relative;
+  left: 35%;
+  top: 10px;
+  color: black;
+  font-size: x-large;
+}
+
+#contanier #aboutMe p {
+  position: relative;
+  left: 230px;
+  top: 30px;
+  width: 450px;
+  color: #717171;
+  text-align: justify;
+  font-size: 14px;
+}
+
+#contanier #bar-1 {
+  position: relative;
+  left: 220px;
+  top: 70px;
+}
+
+#contanier #bar-detail-1 {
+  position: relative;
+  left: 220px;
+  top: 69.5px;
+}
+
+#contanier #workExperience h1 {
+  position: relative;
+  left: 35%;
+  top: 30px;
+  color: black;
+  font-size: x-large;
+}
+
+#contanier #workExperience p {
+  position: relative;
+  left: 230px;
+  top: 50px;
+  width: 450px;
+  color: #717171;
+  text-align: justify;
+  font-size: 14px;
+}
+
+#contanier #bar-2 {
+  position: relative;
+  left: 220px;
+  top: 250px;
+}
+
+#contanier #bar-detail-2 {
+  position: relative;
+  left: 220px;
+  top: 249.5px;
+}
+
+#contanier #education h1 {
+  position: relative;
+  left: 35%;
+  top: 0px;
+  color: black;
+  font-size: x-large;
+}
+
+#education .time-and-school h2 {
+  font-size: 12px;
+  position: relative;
+  left: 33%;
+  top: 20px;
+  color: black;
+}
+
+#education .time-and-school p {
+  font-size: 14px;
+  position: relative;
+  left: 33%;
+  top: 20px;
+  color: #717171;
+}
+
+#education .about-education {
+  width: 280px;
+  position: relative;
+  left: 400px;
+  top: -38px;
+}
+
+#education .about-education h2 {
+  font-size: 14px;
+  color: black;
+}
+
+#education .about-education p {
+  font-size: 14px;
+  position: relative;
+  color: #717171;
+  text-align: justify;
+}
+
+#contanier #bar-3 {
+  position: relative;
+  left: 220px;
+  top: 375px;
+}
+
+#contanier #bar-detail-3 {
+  position: relative;
+  left: 220px;
+  top: 374.5px;
+}
+
+#events h1 {
+  position: relative;
+  left: 35%;
+  top: -40px;
+  color: black;
+  font-size: x-large;
+}
+
+#events .period-and-event {
+  width: 180px;
+  position: relative;
+  left: 32%;
+  top: -25px;
+}
+
+#events .period-and-event h2 {
+  margin-top: 85px;
+  color: black;
+  font-size: 13px;
+  position: relative;
+  top: -65px;
+}
+
+#events .period-and-event p {
+  margin-top: 95px;
+  color: #717171;
+  font-size: 13px;
+  position: relative;
+  top: -380px;
+}
+
+#events .about p {
+  color: #717171;
+  height: 80px;
+  margin-top: 20px;
+  width: 300px;
+  position: relative;
+  left: 55%;
+  top: -406px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+#contanier #bar-4 {
+  position: relative;
+  left: 220px;
+  top: 555px;
+}
+
+#contanier #bar-detail-4 {
+  position: relative;
+  left: 220px;
+  top: 554.5px;
+}

@@ -57,10 +57,10 @@ h4 {
 #CVWrapper {
   position: absolute;
   width: 50vw;
-  margin: 60px auto;
+  margin: 0 auto;
   left: 0;
   right: 0;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 
 }
 
